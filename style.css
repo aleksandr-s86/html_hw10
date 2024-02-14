@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 90%;
+    display: flex;
+    flex-direction: column;    
+    font-family: lato, sans-serif;
+}
+
+.header{
+    display: flex;
+    background: rgb(34, 34, 34);
+    justify-content: space-between;
+    padding: 0px 231px;
+    align-items: center;
+    height: 75px;
+}
+.head1{
+    display: flex;
+    gap: 41px;
+    align-items: center;
+}
+.head2{
+    display: flex;
+    gap: 33px;
+    align-items: center;
+}
+.top_content{
+    display: flex;
+    align-items: center;
+    gap: 63.5px;
+    background: rgb(241, 228, 230);
+    margin-bottom: 65px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+        
+}
+.text1{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.brand{
+    font-size: 48px;
+    font-weight: 900;
+}
+.luxerious{
+    font-size: 32px;
+    font-weight: 700;  
+}
+.fashion{
+    font-size: 32px;
+    font-weight: 700;
+    color:rgb(241, 109, 127);  
+}
+.content{
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: 30px;
+    margin-bottom: 96px;
+   
+}
+
+.for4{
+    grid-column: 1/4;
+    background-image: url(img/Rectangle\ 20-2.png);
+    min-height: 180px;
+}
+
+.for{
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 0 130px rgba(0, 0, 0, 0.6) inset;
+    align-items: center;
+    text-align:center;
+    flex-direction: column;
+}
+
+.for1{
+    background-image: url(img/Layer\ 43.png);
+    min-height: 260px;
+}
+.for2{
+    background-image: url(img/30.png);
+    min-height: 260px;
+}
+.for3{
+    background-image: url(img/Rectangle\ 30.png);
+    min-height: 260px;
+}
+.h_grid{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.h1_grid{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(241, 109, 127);
+}
+.fetured_items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 48px;
+}
+.fetured{
+    color: rgb(34, 34, 34);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.shop{
+    color: rgb(159, 159, 159);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+.price{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 48px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.text3{
+    display: flex;
+    flex-direction: column;
+    margin: 24px 16px;
+    gap: 16px;   
+}
+.head_item{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.par_item{
+    color: rgb(93, 93, 93);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+}
+
+.price_item{
+    color: rgb(241, 109, 127);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.browse{
+    width: 212px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 106, 106);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    place-self: center;
+    color: rgb(242, 99, 118);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    background-color: white;
+}
