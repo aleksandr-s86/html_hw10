@@ -37,8 +37,7 @@ body{
 }
 .text{
     display: flex;
-    flex-direction: column;
-        
+    flex-direction: column;       
 }
 .text1{
     display: flex;
