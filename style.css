@@ -297,10 +297,20 @@ body{
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
-    letter-spacing: 0%;
 }
 .icon_fot{
     display: flex;
     gap: 7.3px;
 }
 
+.drop_down_menu{
+    display: none;
+}
+
+.menu_head2:active +.drop_down_menu{
+    display: block;
+}
+.menu_head2{
+    background: none;
+   
+}

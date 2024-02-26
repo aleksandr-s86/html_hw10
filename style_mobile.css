@@ -83,4 +83,56 @@
         line-height: 19px;
         margin-top: 5.4px;
     }
+    .delivery{
+        grid-template: 1fr/1fr ;
+        gap: 46.5px;
+        padding: 48px 14px;
+        margin-top: 96.5px;
+    }
+    .worldwide{
+        font-weight: 300;    
+    }
+    .subscribe{
+        grid-template: 1fr/1fr;
+        gap: 59px;
+        padding: 64px 14px 110px;
+        background-size: cover;
+    }
+    .vestibulum{
+        font-size: 18px;
+        line-height: 22px;        
+    }
+    .subs1{
+        line-height: 21.5px;
+    }
+    .subs{
+        line-height: 36.8px;   
+    }
+    .push{
+        position: absolute;
+        width: 30vw;
+        height: 46.9px;
+        border-radius: 0px 23.5px 23.5px 0px;   
+    }
+    .field{
+        position: relative;
+        width: 50vw;
+        height: 46.9px;  
+        border: none;
+        background: rgb(225, 225, 225);
+        border-radius: 24.5px 0px 0px 24.5px;
+        padding-left: 22px;
+    }
+    .but{
+        position: relative;
+        right: 15vw;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .par_fot{
+        order: 1;
+    }
 }

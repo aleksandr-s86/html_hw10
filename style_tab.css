@@ -75,4 +75,23 @@
       margin-top: 5.5px;
     }
 
+    .delivery{
+        grid-template: 1fr/1fr ;
+        gap: 48.5px;
+        padding: 48px 204px;
+        margin-top: 64.5px;
+    }
+    .worldwide{
+        font-weight: 300;    
+    }
+    .subscribe{
+        grid-template: 1fr/1fr;
+        gap: 48px;
+        padding: 64px 204px 140px;
+        background-size: cover;
+    }
+    .subs1{
+        line-height: 162%;
+    }
+
 }
