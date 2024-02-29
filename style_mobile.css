@@ -135,4 +135,12 @@
     .par_fot{
         order: 1;
     }
+    .head2 button ul{
+        position: absolute;
+        background-color: #FBFBFB;
+        list-style: none;
+        padding: 32px 74px 32px;
+        display: none;
+        right: 1vw;
+    }
 }

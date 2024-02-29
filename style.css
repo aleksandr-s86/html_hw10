@@ -144,6 +144,7 @@ a{
     flex-direction: column;
     gap: 16px;
 }
+
 .text3{
     display: flex;
     flex-direction: column;
@@ -168,6 +169,10 @@ a{
     font-weight: 400;
     line-height: 19px;
 }
+.browse_but{
+    display: flex;
+    justify-content: center;
+}
 .browse{
     width: 212px;
     height: 48px;
@@ -185,6 +190,7 @@ a{
     font-weight: 400;
     line-height: 19px;
     background-color: white;
+    margin-bottom: 95px;
 }
 .delivery{
     display: grid;
@@ -281,7 +287,7 @@ a{
     border: none;
     background: rgb(225, 225, 225);
     border-radius: 24.5px 0px 0px 24.5px;
-    padding-left: 22px;
+    padding: 0px 22px;
 }
 .but{
     position: relative;
@@ -306,6 +312,7 @@ a{
 }
 .menu_head2{
     background: none;
+    border: none;
 }
 .red_menu{
     color: rgb(241, 109, 127);
@@ -318,14 +325,10 @@ a{
 }
 
 .head2 button ul{
-    display: flex;
-    flex-direction: column;
     position: absolute;
     background-color: #FBFBFB;
     list-style: none;
     padding: 32px 74px 32px;
-    gap: 11px;
-    top: 76px;
     display: none;
 }
 .head_drop{
@@ -334,19 +337,105 @@ a{
     font-weight: 700;
     line-height: 17px;
     text-align: left;
+    margin-bottom: 24px;
 }
 
 .li_menu{
+    display: flex;
     color: rgb(111, 110, 110);
     font-family: Lato;
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
     letter-spacing: 0%;
-    text-align: left;
+    margin-left: 21.5px;
 }
-.head2 button li:hover>button{
-    display: initial;
+
+.head2 button:hover>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;   
+}
+.korzina::before{
+    content: var(--count);
+    display: flex;
+    width: 19px;
+    height: 19px;
+    background-color: rgb(241, 109, 127);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1.5vw;
+    top:1.2vh
+}
+.korzina{
+    margin-bottom: 17px;
+}
+:root{
+       --count:"0";
+}
+
+
+
+.browse:hover{
+    width: 212px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FF6A6A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    place-self: center;
+    color:#FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    background-color: #FF6A6A;
+}
+.ic_f:hover path{
+    fill: #FF6A6A;
+    stroke: #FBFBFB;   
+}
+
+
+.img_item{
+    width: 100%;
+    
+}
+
+.div_img .img_item:hover {
+    filter: brightness(20%);
+    cursor: pointer;
+}
+     
+
+.but_korzina .add_chart{
+    display: flex;
+    justify-content: center;
+    width: 138px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+    bottom: calc(50% + 30vh);
+    right: calc(50% + 7vw);
+    opacity: 0;
+    transition: opacity 0.3s;
+    padding: 11.3px 13.5px;
+    gap: 11px;  
+}
+
+.but_korzina .add_chart:hover{
+    opacity: 1;
 }
 
 
